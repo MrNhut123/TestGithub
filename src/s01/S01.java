@@ -124,6 +124,7 @@ public class S01 {
      * @param args argument of main method
      */
     public static void main(String[] args) {
+        System.out.println("This program help you converse string and change sensitive case");
         S01 s = new S01();
         String str = s.getString();
         str = s.reverseString(str);
